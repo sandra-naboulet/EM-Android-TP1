@@ -1,0 +1,4 @@
+bin/
+proguard-project.txt
+gen/
+project.properties
