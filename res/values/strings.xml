@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TP1</string>
+    <string name="hello_world">Bonjour à tous</string>
+    <string name="starting">Démarrage...</string>
+    <string name="confirmation_msg">Etes vous sur de vouloir quitter l\'application ?</string>
+   	<string name="confirmation">Confirmation</string>
+    <string name="action_logout">Sortir</string>
+    <string name="cancel">Annuler</string>
+    <string name="ok">OK</string>
+    <string name="FR">FR</string>
+	<string name="EN">EN</string>
+</resources>
