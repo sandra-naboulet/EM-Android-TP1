@@ -91,17 +91,12 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case R.id.fr_button:
-			Log.i("MAIN", "onClick FR");
-			Log.i("MAIN", "current Locale = " + mConfig.locale);
 			mConfig.locale = mFRLocale;
 			Locale.setDefault(mFRLocale);
 			getResources().updateConfiguration(mConfig, getResources().getDisplayMetrics());
 			restartActivity();
 			break;
 		case R.id.en_button:
-			Log.i("MAIN", "onClick EN");
-
-			Log.i("MAIN", "current Locale = " + mConfig.locale);
 			mConfig.locale = mENLocale;
 			getResources().updateConfiguration(mConfig, getResources().getDisplayMetrics());
 			Locale.setDefault(mENLocale);
