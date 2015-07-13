@@ -3,3 +3,5 @@ proguard-project.txt
 gen/
 project.properties
 .settings/
+.project
+.classpath
